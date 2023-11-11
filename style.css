@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(257, 40%, 49%)  ;
+    background-image: url(./images/bg-mobile.svg);
+    text-wrap: wrap;
+    width: fit-content;
+    /* height: 100px; */
+    height: fit-content;
+    padding: 10px;
+    background-size: cover;
+    }
+
+main{
+    height: auto;
+    width: auto;
+    padding-bottom: 60px;
+    
+    }
+
+.container{
+    margin-top: 60px;
+    display: flex; 
+    height: auto; 
+    margin-inline: auto;
+}
+
+.logo{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.text{
+    margin-left: 100px;
+    margin: 100px;
+
+
+}
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+button{
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:  hsl(257, 40%, 49%) ;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 4.5px 2px rgb(82, 80, 80);
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+    font-size: smaller;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+footer{
+    float: right;
+
+}
+
+.fi{
+    border: solid 2px white;
+    border-radius: 50%;
+    height: 40px;
+    padding: 10px;
+    color: hsl(300, 69%, 71%);
+    
+}
+.ii{
+    
+    border: solid 2px white;
+    border-radius: 50%;
+    height: 40px;
+    padding: 10px;
+}
+.ti{
+    border: solid 2px white;
+    border-radius: 50%;
+    height: 40px;
+    padding: 10px;
+}
+
+
+
+.fi:hover{
+    cursor: pointer;
+    border: solid hsl(300, 69%, 71%);
+}
+.ii:hover{
+    cursor: pointer;
+    border: solid hsl(300, 69%, 71%);
+}
+.ti:hover{
+    cursor: pointer;
+    border: solid hsl(300, 69%, 71%);
+}
+
+
+@media (max-width:800px) {
+    main{
+        display: grid;
+    }
+    .container{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: fit-content;
+        display:inline-block;
+    }
+    .text{
+        text-align: center;
+       /* width: 300px; */
+        /* padding-left: 200x; */
+        padding-top: 0px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin: 0px;
+        
+    }
+    footer{
+        /* margin-inline: 260px;
+        margin-bottom: 100px; */
+        float: none;
+        text-align: center;
+    }
+    p{
+        font-size: large;
+    }
+    body{
+        background-repeat: no-repeat;
+    }
+    
+}
+
+
+    
+
